@@ -1,7 +1,7 @@
 <script>
 import { defineComponent,ref } from 'vue';
 export default defineComponent({
-    name: 'Header',
+    name: 'AppHeader',
     setup(){
         const mockupHeader = ref('Quote Generator');
         return {

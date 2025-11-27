@@ -1,14 +1,14 @@
 <script>
-import Header from '@/components/Header.vue';
-import Content from '@/components/Content.vue';
-import Footer from '@/components/Footer.vue';
+import AppHeader from './components/AppHeader.vue'
+import AppFooter from './components/AppFooter.vue'
+import MainContent from './components/MainContent.vue'
 import { defineComponent } from 'vue';
 export default defineComponent({
     name: 'App',
     components: {
-        Header,
-        Content,
-        Footer,
+        AppHeader,
+        MainContent,
+        AppFooter,
     },
     setup() {
         //
@@ -17,9 +17,9 @@ export default defineComponent({
 </script>
 
 <template>
-    <Header />
-    <Content />
-    <Footer />
+    <AppHeader />
+    <MainContent />
+    <AppFooter />
 </template>
 
 <style scoped>

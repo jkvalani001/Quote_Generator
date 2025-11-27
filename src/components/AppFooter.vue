@@ -1,7 +1,7 @@
 <script>
 import { defineComponent,ref } from 'vue';
 export default defineComponent({
-    name: 'Footer',
+    name: 'AppFooter',
     setup() {
         const footerText = ref("Copyright © 2025 Jainam. All rights reserved.");
         return {

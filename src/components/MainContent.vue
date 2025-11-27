@@ -1,7 +1,7 @@
 <script>
 import { defineComponent, onMounted, ref } from 'vue';
 export default defineComponent({
-    name: 'Content',
+    name: 'MainContent',
     setup() {
         const quoteGujarati = ref("");
         const quoteHindi = ref("");
